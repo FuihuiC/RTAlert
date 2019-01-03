@@ -12,7 +12,6 @@
 #define RT_ALERT_WIDTH (MIN(RT_ALERT_SCREEN_SIZE.width, RT_ALERT_SCREEN_SIZE.height) * 0.7)
 #define RT_SHEET_WIDTH (MIN(RT_ALERT_SCREEN_SIZE.width, RT_ALERT_SCREEN_SIZE.height) * 0.9)
 
-
 UIKIT_EXTERN NSLayoutConstraint *RTAlertLayoutWidth(UIView *item, UIView *toItem, CGFloat constant);
 UIKIT_EXTERN NSLayoutConstraint *RTAlertLayoutHeight(UIView *item, UIView *toItem, CGFloat constant);
 
